@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	font-family: open-sans, sans-serif;
+	text-transform: uppercase;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover{
+	backgound: green;
+}
+
+.container{
+	background-color: #C7E3EA; 
+}
+
+#bar-chart{
+	background-color: #C7E3EA;
+}
+
+#billede{
+	width: 100%;
+}
+

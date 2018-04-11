@@ -1,0 +1,48 @@
+[{
+ "dyr": "Rotter",
+ "antal": 120
+},
+ {
+ "dyr": "Kaniner",
+ "antal": 120
+},
+ {
+ "dyr": "Fjæsing",
+ "antal": 140
+},
+ {
+ "dyr": "Hugormen",
+ "antal": 140
+},
+{
+ "dyr": "Grise",
+ "antal": 200
+},
+{
+ "dyr": "Myg",
+ "antal": 500
+},
+{
+ "dyr": "Køer",
+ "antal": 700
+},
+{
+ "dyr": "Skovflåten",
+ "antal": 1000
+},
+{
+ "dyr": "Kat",
+ "antal": 1500
+},
+{
+ "dyr": "Bi",
+ "antal": 2500
+},
+{
+ "dyr": "Hund",
+ "antal": 8000
+},
+{
+ "dyr": "Hest",
+ "antal": 9000
+}]

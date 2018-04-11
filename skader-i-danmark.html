@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Antal af ulykker forsaget af dyr</title>
+	
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">	
+
+<!--jQuary Ui CSS-->
+<link rel="stylesheet" href="jquery-ui.min.css">
+	
+<!--Loading jQuary -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	
+<!--jQuary Ui js-->	
+<script src="jquery-ui.min.js"></script>	
+	
+<!--Loading 3D -->	
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<link rel="stylesheet" href="skader-i-danmark-stylesheet.css"> 	
+
+<script>
+	$(function() {
+            $( "#tab-diagram" ).accordion({
+				collapsible:true,
+				active:false,
+			
+			});
+         });
+
+</script>	
+	
+	
+	</head>
+<body>
+	<div class="container-fluid">
+		
+			
+		<img id="billede" src="Infografik.png" alt="infografik"> 
+		
+		<div id="tab-diagram">
+			
+
+				<h1 class="text-center">Antal af ulykker forsaget af dyr</h1>
+
+				<div class="align-content-center" id="bar-chart"></div>
+			
+		
+	
+		</div>	
+	</div>
+<script src="skader-i-danmark.js"></script>
+</body>
+</html>
